@@ -110,10 +110,5 @@ namespace Tarea_2_Registro
         void RefrescarConsultaRoles(){
             DataGridConsultaRoles.ItemsSource = RolesBLL.GetLista();
         }
-
     }
-
-
- 
-    
 }
